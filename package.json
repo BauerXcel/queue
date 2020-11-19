@@ -1,7 +1,7 @@
 {
-  "name": "@dadi/queue",
-  "version": "2.3.1",
-  "description": "A lightweight, high-performance task queue built on Node JS and Redis. Includes a broker for queue management and routing, plus a worker framework for processing messages.",
+  "name": "@bauerxcel/queue",
+  "version": "3.0.0-test.8",
+  "description": "Forked from @dadi/queue - version 2.3.1. A lightweight, high-performance task queue built on Node JS and Redis. Includes a broker for queue management and routing, plus a worker framework for processing messages.",
   "main": "index.js",
   "scripts": {
     "test": "snazzy 'lib/*.js' && env NODE_ENV=test ./node_modules/.bin/nyc --reporter=lcov ./node_modules/mocha/bin/_mocha test && ./node_modules/.bin/nyc report",
